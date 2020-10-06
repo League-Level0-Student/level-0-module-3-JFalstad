@@ -10,6 +10,7 @@ public class WalkOfFame {
 		// 1. Set the X position of the robot so that it starts on the left. 
 		// You also need to show the robot to see the result of this line.
 		rob.setX(0);
+		rob.miniaturize();
 		// 2. Make the robot draw a star shape. Hint: angle=144.
 		rob.setSpeed(20);
 		rob.penDown();
